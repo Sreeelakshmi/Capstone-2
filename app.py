@@ -27,7 +27,7 @@ def main():
     elif choice == "Rewards":
         show_rewards()
     elif choice == "Recommendations":
-        get_recommendations()  # Call to the function that contains the recommendation system
+        main()  # Call to the function that contains the recommendation system
     #elif choice == "Chatbot":
         #travel_advisor_chatbot()
     elif choice == "Group Travel Planning":
